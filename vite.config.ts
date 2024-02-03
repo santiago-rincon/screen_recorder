@@ -10,6 +10,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
       "@icons": path.resolve(__dirname, "./src/icons"),
       "@components": path.resolve(__dirname, "./src/components"),
+      "@types": path.resolve(__dirname, "./src/types.d.ts"),
+      "@store": path.resolve(__dirname, "./src/store"),
+      "@utils": path.resolve(__dirname, "./src/utils"),
     },
   },
 });
